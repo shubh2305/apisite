@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 10%
+}
+
+.form-control {
+  width: 70%;
+  margin: 0;
+  display: inline-block;
+}
+
+.todo-wrapper {
+  margin: 5% auto;
+  width: 50%;
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 3% 5%;
+}
+
+
+.task-list p {
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.task-list .edit-and-delete, .btn-primary {
+  float: right;
+}
+
+input[type=checkbox]:checked + p {
+  text-decoration: line-through;
+}
+
